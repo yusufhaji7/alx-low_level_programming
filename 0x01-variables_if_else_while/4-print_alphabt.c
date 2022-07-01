@@ -6,15 +6,13 @@
  */
 int main(void)
 {
-	int a = 97;
 
-	while (a < 123)
+	while (int a = 97; a < 123; a++)
 	{
 		if (a == 113 || a == 101)
 			continue;
-		else
-			putchar(a);
-		a++;
+		putchar(a);
 	}
+	putchar('\n')
 	return (0);
 }
