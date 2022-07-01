@@ -18,7 +18,6 @@ int main(void)
 	{
 		if (n < 100 || n > -100)
 		{
-			n = n / 10;
 			a = n % 10;
 		}
 		else
