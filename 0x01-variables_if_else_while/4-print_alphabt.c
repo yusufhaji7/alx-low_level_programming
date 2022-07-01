@@ -10,7 +10,10 @@ int main(void)
 
 	while (a < 123)
 	{
-		putchar(a);
+		if (a == 113 || a == 101)
+			continue
+		else
+			putchar(a);
 		a++;
 	}
 	return (0);
