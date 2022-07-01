@@ -19,6 +19,7 @@ int main(void)
 		if (n < 100 || n > -100)
 		{
 			a = n % 10;
+			break
 		}
 		n = n / 10;
 		a = n % 10;
