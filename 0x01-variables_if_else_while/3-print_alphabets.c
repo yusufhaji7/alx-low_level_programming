@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-        int a = 97;
+	int a = 97;
 	int b = 65;
 
 	while (a < 123)
@@ -14,7 +14,7 @@ int main(void)
 		printf("%c", a);
 		a++;
 	}
-	while (b < 65)
+	while (b < 91)
 	{
 		printf("%c", b);
 		b++;
