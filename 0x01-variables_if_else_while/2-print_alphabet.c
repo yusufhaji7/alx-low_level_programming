@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Return - 0 (SUCCESS)
+ * Return: 0 (SUCCESS)
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 
 	while (a < 123)
 	{
-		printf("%c\n", a);
+		printf("%c", a);
 		a++;
 	}
 	return (0);
