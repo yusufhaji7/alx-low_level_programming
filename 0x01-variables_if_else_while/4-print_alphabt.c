@@ -6,10 +6,12 @@
  */
 int main(void)
 {
+	int a;
 
-	for (int a = 97; a < 123; a++)
+	while (a < 123)
 	{
 		if (a == 113 || a == 101)
+			a++;
 			continue;
 		putchar(a);
 	}
