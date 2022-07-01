@@ -4,12 +4,14 @@
  *
  * Return - 0 (SUCCESS)
  */
-int main(){
+int main(void)
+{
 	int a = 97;
-	while (a < 122)
+
+	while (a < 123)
 	{
-		printf("%c", a);
+		printf("%c\n", a);
 		a++;
 	}
-	return(0);
+	return (0);
 }
