@@ -13,5 +13,6 @@ int main(void)
 		printf("%c", a);
 		a++;
 	}
+	printf();
 	return (0);
 }
