@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/**
+ * main - entry point
+ *
+ * Return: 0 (SUCCESS)
+ */
+int main(void)
+{
+	int n;
+	int a;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	while (a > 10 || a < -10)
+	{
+		n = n/10;
+		a = n%10;
+	}
+
+	if (a > 5)
+		printf("Last digit of %d is %d and is greater 5", n, a);
+	else if (a < 6)
+		printf("Last digit of %d is %d and is less than 6 and not 0", n, a);
+	else
+		printf("Last digit of %d is %d and is 0",0);
+	return (0);
+}
