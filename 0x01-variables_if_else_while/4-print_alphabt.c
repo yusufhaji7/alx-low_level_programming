@@ -7,7 +7,7 @@
 int main(void)
 {
 
-	while (int a = 97; a < 123; a++)
+	for (int a = 97; a < 123; a++)
 	{
 		if (a == 113 || a == 101)
 			continue;
