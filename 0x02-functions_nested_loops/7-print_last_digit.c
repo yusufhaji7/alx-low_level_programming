@@ -3,9 +3,14 @@
 /**
  *print_last_digit - checkes lower case
  *@n: number
- * Return: return 0, n or -1*n
+ * Return: return n%10
  */
 int print_last_digit(int n)
 {
-	return (n % 10);
+	if (n > 0)
+		return (n % 10);
+	else if (n < 0)
+		return (-1 * (n % 10));
+	else
+		return (0);
 }
