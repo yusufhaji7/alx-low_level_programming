@@ -17,5 +17,6 @@ int main(void)
 		}
 		n++;
 	}
+	printf("%d", counter);
 	return (0);
 }
