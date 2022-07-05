@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * int _islower - checkes lower case
- *
- * Return: Always 0
+ *_islower - checkes lower case
+ *@c: tested letter
+ * Return: return 0 or 1
  */
 int _islower(int c)
 {
