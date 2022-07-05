@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints a to z 10 times
+ * print_alphabet_x10 - prints a to z 10 times
  *
  * Return: Always 0
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int a = 97;
 	int b = 1;
