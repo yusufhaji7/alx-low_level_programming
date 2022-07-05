@@ -11,12 +11,12 @@ int main(void)
 
 	while (n  != 1024)
 	{
-		if (((n % 5) == 0) && ((n % 3) == 0))
+		if (((n % 5) == 0) || ((n % 3) == 0))
 		{
 			counter += n;
 		}
 		n++;
 	}
-	printf("%d", counter);
+	printf("%d\n", counter);
 	return (0);
 }
