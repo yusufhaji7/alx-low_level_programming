@@ -1,15 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: 0 (Success)
+ * Return: 0 upon success
  */
-void putchar(void)
-{
-	 write(1, "_putchar", 8);
-}
+
 int main(void)
 {
-	putchar();
+	_putchar("_putchar");
 	return (0);
 }
