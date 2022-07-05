@@ -6,8 +6,7 @@
  * Return: void
  */
 
-void jack_bauer(void)
-{
+void jack_bauer(void) {
 	int a = 0;
 
 	while (a <= 2)
