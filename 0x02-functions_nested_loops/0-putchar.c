@@ -4,8 +4,12 @@
  *
  * Return: 0 (Success)
  */
+void putchar(void)
+{
+	 write(1, "_putchar", 8);
+}
 int main(void)
 {
-	write(1,"_putchar",8);
+	putchar();
 	return (0);
 }
