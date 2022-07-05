@@ -39,7 +39,7 @@ void jack_bauer(void)
 			b++;
 			}
 		a++;
-        	}
+		}
 		else
 		{
 			while (b <= 9)
