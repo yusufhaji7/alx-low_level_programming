@@ -23,6 +23,7 @@ int main(void)
 		}
 		if (counter == 2)
 			big_number = i;
+		i++;
 	}
 	printf(big_number);
 
