@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	int i = 2;
+	int i = 1;
 	int counter;
 	int big_number;
 
 	while (i <= 612852475143)
 	{
-		int j = 0;
+		int j = 1;
 
 		while (j <= 612852475143)
 		{
