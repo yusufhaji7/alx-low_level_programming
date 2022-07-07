@@ -8,14 +8,14 @@
 int main(void)
 {
 	int i = 1;
-	int counter;
+	int counter = 0;
 	int big_number;
 
 	while (i <= 612852475143)
 	{
 		int j = 1;
 
-		while (j <= 612852475143)
+		while (j <= i)
 		{
 			if ((i % j) == 0)
 				counter += 1;
