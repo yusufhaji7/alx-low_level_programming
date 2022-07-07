@@ -25,7 +25,7 @@ int main(void)
 			big_number = i;
 		i++;
 	}
-	printf("%d",big_number);
+	printf("%d\n", big_number);
 
 	return (0);
 }
