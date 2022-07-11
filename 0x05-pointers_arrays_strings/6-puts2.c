@@ -10,8 +10,14 @@
 void puts2(char *str)
 {
 	int count = 0;
+	int num = 0;
 
 	while (str[count] != '\0')
+	{
+		count++;
+	}
+
+	while (num < count)
 	{
 		_putchar(str[count]);
 		count = count + 2;
