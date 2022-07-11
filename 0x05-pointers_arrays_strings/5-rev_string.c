@@ -9,18 +9,22 @@
 
 void rev_string(char *s)
 {
-	int count = 0;
+	char *a = s;
+	char n[100000];
+	short count = 0;
 
-	while (s[count] != '\0')
+	while (*s != '\0')
 	{
+		n[count] = *s;
+		s++;
 		count++;
 	}
-	count--;
+	count = 0;
 
-	while (count >= 0)
+	while (s > a)
 	{
-		_putchar(s[count]);
-		count--;
+		s--;
+		*s = n[count];
+		count++;
 	}
-	_putchar('\n');
 }
