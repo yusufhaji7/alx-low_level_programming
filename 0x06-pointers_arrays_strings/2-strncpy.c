@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strncpy - copies string
+ * _strncpy - copies string
  * @dest: string to be copied upon
  * @src: string to be copied
  * @n: integer
@@ -16,11 +16,13 @@ char *_strncpy(char *dest, char *src, int n)
 	while ((src[i] != '\0') && (i < n))
 	{
 		dest[i] = src[i];
+		i++;
 	}
 
 	while (i < n)
 	{
 		dest[i] = '\0';
+		i++;
 	}
 
 	return (dest);
