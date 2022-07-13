@@ -4,6 +4,7 @@
  * _strncat - concatinates string with specified number
  * @dest: string to be concatinated on
  * @src: string to be concatinated
+ * @n: an integer
  *
  * Return: dest
  */
