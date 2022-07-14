@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_touppper - changes lower to upper
+ * string_toupper - changes lower to upper
  * @dest: accpets string as parameter
  *
  * Return: dest
@@ -15,6 +15,7 @@ char *string_toupper(char *dest)
 	{
 		if (dest[i] >= 'a' && dest[i] <= 'z')
 			dest[i] -= 32;
+		i++;
 	}
 	return (dest);
 }
