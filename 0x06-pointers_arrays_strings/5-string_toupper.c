@@ -11,7 +11,7 @@ char *string_toupper(char *dest)
 {
 	int i = 0;
 
-	while (dest[i] != '0')
+	while (dest[i] != '\0')
 	{
 		if (dest[i] >= 'a' && dest[i] <= 'z')
 			dest[i] -= 32;
