@@ -1,4 +1,4 @@
-#include "main.h"
+#include "search_algos.h"
 
 /**
  * interpolation_search - Searches for a value in a sorted array

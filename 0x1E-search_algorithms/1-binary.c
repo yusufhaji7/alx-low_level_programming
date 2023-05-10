@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "search_algos.h"
 
 /**
  * prar - prints array

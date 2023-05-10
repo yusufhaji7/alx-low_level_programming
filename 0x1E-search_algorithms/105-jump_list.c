@@ -1,5 +1,5 @@
 #include <math.h>
-#include "main.h"
+#include "search_algos.h"
 
 /**
  * move_forward - moves a list forward until the index matches a desired
